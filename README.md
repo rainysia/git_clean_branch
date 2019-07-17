@@ -3,7 +3,9 @@ git batch clean branch
 
 Usage
 ---------
-This script will delete upstream or origin remote repository branch, Need to set keep_keywords, default_branch, protect_branches_arr
+This script will help you to clean upstream or origin remote repository branch,
+It will keep protected_branches,keywords_branches, and delete merged branches.
+Need to set keep_keywords, default_branch, protect_branches_arr
 ```
 ./xxx/git_branch_clean.sh /xxx/project_folder/ remote_name
 ./xxx/git_branch_clean.sh /xxx/project_folder/ upstream
